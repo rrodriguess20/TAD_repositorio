@@ -1,5 +1,4 @@
-#ifndef __TAD_PONTO_C__
-    #define __TAD_PONTO_C__
+    #include "TAD_Ponto.h"
 
     #include <stdlib.h>
     #include <math.h>
@@ -38,5 +37,3 @@
 
         return sqrtf(dx*dx + dy*dy);
     }
-
-#endif

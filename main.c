@@ -2,6 +2,7 @@
 #include <math.h>
 
 #include "TAD_Ponto/TAD_Ponto.h"
+#include "TAD_Circulo/TAD_Circulo.h"
 
 int main(){
 

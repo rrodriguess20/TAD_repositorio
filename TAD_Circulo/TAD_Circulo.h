@@ -1,17 +1,19 @@
-#include "TAD_Ponto.h"
-struct circulo{
+#ifndef TAD_CIRCULO_H
+    #define TAD_CIRCULO_H
+    #include "../TAD_Ponto/TAD_Ponto.h"
 
-    float x;
-    float y;
-    float r;
-};
+    struct circulo{
 
-typedef struct circulo Circulo;
-typedef struct circulo * CCirculo;
+        PPonto p;
+        float r;
+    };
 
-CCirculo circulo_cria (float x, float y, float r);
-void circulo_libera(CCirculo c);
-float circulo_area(CCirculo c);
-int circulo_interior(CCirculo c);
+    typedef struct circulo Circulo;
+    typedef struct circulo * CCirculo;
 
-#include "TAD_Circulo.c"
+    CCirculo circulo_cria (float x, float y, float r);
+    void circulo_libera(CCirculo c);
+    float circulo_area(CCirculo c);
+    int circulo_interior(CCirculo c, PPonto p);
+
+#endif
