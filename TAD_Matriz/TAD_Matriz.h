@@ -10,6 +10,6 @@
 
     typedef  MatrizDinamica * MMatriz;
 
-    MMatriz cria_matriz(int linhas, int colunas);
+    MMatriz nova_matriz(int linhas, int colunas);
 
 #endif

@@ -10,6 +10,7 @@
                 "main.c",
                 "TAD_Ponto/TAD_Ponto.c",
                 "TAD_Circulo/TAD_Circulo.c",
+                "TAD_Matriz/TAD_Matriz.c",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}",
                 "-lm"
