@@ -3,6 +3,7 @@
 
 #include "TAD_Ponto/TAD_Ponto.h"
 #include "TAD_Circulo/TAD_Circulo.h"
+#include "TAD_Matriz/TAD_Matriz.h"
 
 int main(){
 
@@ -11,6 +12,8 @@ int main(){
     printf("(%.2f, %.2f)\n", a->x, a->y);
 
     ponto_libera(a);
+
+    //o cria matriz não está sendo identificado quando o programa main é compilado
 
     return 0;
 }
