@@ -15,7 +15,6 @@ int main(){
 
     MMatriz teste =  nova_matriz(2, 0);
 
-    //o cria matriz não está sendo identificado quando o programa main é compilado
 
     return 0;
 }
