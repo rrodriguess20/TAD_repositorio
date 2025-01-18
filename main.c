@@ -13,8 +13,5 @@ int main(){
 
     ponto_libera(a);
 
-    MMatriz teste =  nova_matriz(2, 0);
-
-
     return 0;
 }

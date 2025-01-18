@@ -4,7 +4,7 @@
 
     MMatriz nova_matriz(int linhas, int colunas){
 
-        MMatriz m = (MMatriz)malloc(sizeof(MatrizDinamica));
+        MMatriz m = (MMatriz)malloc(sizeof(Matriz));
 
         m->l = linhas;
         m->c = colunas;
